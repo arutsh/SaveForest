@@ -9,8 +9,12 @@ import './css/style.css';
 
 import './charts/ChartjsConfig';
 
+
+
 // Import pages
 import Dashboard from './pages/Dashboard';
+import Locations from './models/Locations/pages/Locations';
+import CreateRecord from './models/Reports/pages/NewRecord';
 
 function App() {
 
@@ -26,6 +30,8 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Dashboard />} />
+        <Route exact path="locations" element={<Locations/>} />
+        <Route exact path="records/new" element={<CreateRecord />} />
       </Routes>
     </>
   );

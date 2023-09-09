@@ -5,6 +5,7 @@ import Notifications from '../components/DropdownNotifications';
 import Help from '../components/DropdownHelp';
 import UserMenu from '../components/DropdownProfile';
 import ThemeToggle from '../components/ThemeToggle';
+import UserRating from '../components/UserRating';
 
 function Header({ sidebarOpen, setSidebarOpen }) {
   const [searchModalOpen, setSearchModalOpen] = useState(false);
@@ -62,6 +63,7 @@ function Header({ sidebarOpen, setSidebarOpen }) {
               <SearchModal id="search-modal" searchId="search" modalOpen={searchModalOpen} setModalOpen={setSearchModalOpen} />
             </div>
             <Notifications align="right" />
+            <UserRating val={2468}/>
             <Help align="right" />
             <ThemeToggle />
             {/*  Divider */}

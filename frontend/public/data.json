@@ -1,0 +1,78 @@
+{
+    "cases":4,
+    "trees": [
+        {
+            "name": "Tree1_ABC",
+            "type": "Silver Maple",
+            "age": 100,
+            "CreatedBy" : "Navya",
+            "ModifiedBy": "Navya",
+            "LastViewedBy": "Data Analyst",
+            "UpdatedOn": "2023-06-10",            
+            "LastViewedOn": "2023-07-01",
+            "Location": "Forest1",
+            "IsHealthy": true,
+            "IsCut": false,
+            "Height": 200,
+            "Circumference": 70,
+            "Image": null,
+            "SetAlert": false
+
+        },
+        {
+            "name": "Tree2_FGH",
+            "type": "White Cedar",
+            "age": 200,
+            "CreatedBy" : "Navya",
+            "ModifiedBy": "Navya",
+            "LastViewedBy": "Reporter",
+            "UpdatedOn": "2023-07-10",            
+            "LastViewedOn": "2023-08-01",
+            "Location": "Forest2",
+            "IsHealthy": true,
+            "IsCut": false,
+            "Height": 100,
+            "Circumference": 60,
+            "Image": null,
+            "SetAlert": false
+
+        },
+        {
+            "name": "Tree3_TYK",
+            "type":"Black Spruce",
+            "age": 400,
+            "CreatedBy" : "Annika",
+            "ModifiedBy": "Navya",
+            "LastViewedBy": "Data Analyst",
+            "UpdatedOn": "2023-05-15",            
+            "LastViewedOn": "2023-07-01",
+            "Location": "Forest1",
+            "IsHealthy": false,
+            "IsCut": true,
+            "Height": 0,
+            "Circumference": 80,
+            "Image": null,
+            "SetAlert": true
+
+        },
+        {
+            "name": "Tree4_LKH",
+            "type": "Cedar",
+            "age": 10,
+            "CreatedBy" : "Colin",
+            "ModifiedBy": "Abraham",
+            "LastViewedBy": "Reporter",
+            "UpdatedOn": "2023-08-19",            
+            "LastViewedOn": "2023-09-15",
+            "Location": "Forest2",
+            "IsHealthy": false,
+            "IsCut": false,
+            "Height": 60,
+            "Circumference": 10,
+            "Image": "Some pic",
+            "SetAlert": true
+
+        }
+    ]
+
+}

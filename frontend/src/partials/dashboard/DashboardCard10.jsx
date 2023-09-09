@@ -14,40 +14,36 @@ function DashboardCard10() {
       image: Image01,
       name: 'Alex Shatov',
       email: 'alexshatov@gmail.com',
-      location: '🇺🇸',
-      spent: '$2,890.66',
+      rating: '2456',
+      
     },
     {
       id: '1',
       image: Image02,
       name: 'Philip Harbach',
       email: 'philip.h@gmail.com',
-      location: '🇩🇪',
-      spent: '$2,767.04',
+      rating: '3458',
     },
     {
       id: '2',
       image: Image03,
       name: 'Mirko Fisuk',
       email: 'mirkofisuk@gmail.com',
-      location: '🇫🇷',
-      spent: '$2,996.00',
+      rating: '8126',
     },
     {
       id: '3',
       image: Image04,
       name: 'Olga Semklo',
       email: 'olga.s@cool.design',
-      location: '🇮🇹',
-      spent: '$1,220.66',
+      rating: '1328',
     },
     {
       id: '4',
       image: Image05,
       name: 'Burak Long',
       email: 'longburak@gmail.com',
-      location: '🇬🇧',
-      spent: '$1,890.66',
+      rating: '6422',
     },
   ];
 
@@ -71,11 +67,9 @@ function DashboardCard10() {
                   <div className="font-semibold text-left">Email</div>
                 </th>
                 <th className="p-2 whitespace-nowrap">
-                  <div className="font-semibold text-left">Spent</div>
+                  <div className="font-semibold text-left">Rating</div>
                 </th>
-                <th className="p-2 whitespace-nowrap">
-                  <div className="font-semibold text-center">Country</div>
-                </th>
+
               </tr>
             </thead>
             {/* Table body */}
@@ -96,10 +90,7 @@ function DashboardCard10() {
                         <div className="text-left">{customer.email}</div>
                       </td>
                       <td className="p-2 whitespace-nowrap">
-                        <div className="text-left font-medium text-green-500">{customer.spent}</div>
-                      </td>
-                      <td className="p-2 whitespace-nowrap">
-                        <div className="text-lg text-center">{customer.location}</div>
+                        <div className="text-left font-medium text-green-500">{customer.rating}</div>
                       </td>
                     </tr>
                   )

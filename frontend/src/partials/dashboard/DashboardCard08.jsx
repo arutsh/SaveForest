@@ -52,45 +52,14 @@ function DashboardCard08() {
         pointHoverBorderWidth: 0,
         clip: 20,
       },
-      // Blue line
-      {
-        label: 'Previous',
-        data: [184, 86, 42, 378, 42, 243, 38, 120, 0, 0, 42, 0, 84, 0, 276, 0, 124, 42, 124, 88, 88, 215, 156, 88, 124, 64],
-        borderColor: tailwindConfig().theme.colors.blue[400],
-        fill: false,
-        borderWidth: 2,
-        tension: 0,
-        pointRadius: 0,
-        pointHoverRadius: 3,
-        pointBackgroundColor: tailwindConfig().theme.colors.blue[400],
-        pointHoverBackgroundColor: tailwindConfig().theme.colors.blue[400],
-        pointBorderWidth: 0,
-        pointHoverBorderWidth: 0,
-        clip: 20,
-      },
-      // emerald line
-      {
-        label: 'Average',
-        data: [122, 170, 192, 86, 102, 124, 115, 115, 56, 104, 0, 72, 208, 186, 223, 188, 114, 162, 200, 150, 118, 118, 76, 122, 230, 268],
-        borderColor: tailwindConfig().theme.colors.emerald[500],
-        fill: false,
-        borderWidth: 2,
-        tension: 0,
-        pointRadius: 0,
-        pointHoverRadius: 3,
-        pointBackgroundColor: tailwindConfig().theme.colors.emerald[500],
-        pointHoverBackgroundColor: tailwindConfig().theme.colors.emerald[500],
-        pointBorderWidth: 0,
-        pointHoverBorderWidth: 0,
-        clip: 20,
-      },
+    
     ],
   };
 
   return (
-    <div className="flex flex-col col-span-full sm:col-span-6 bg-white dark:bg-slate-800 shadow-lg rounded-sm border border-slate-200 dark:border-slate-700">
+    <div className="flex flex-col col-span-full xl:col-span-5   bg-white dark:bg-slate-800 shadow-lg rounded-sm border border-slate-200 dark:border-slate-700">
       <header className="px-5 py-4 border-b border-slate-100 dark:border-slate-700 flex items-center">
-        <h2 className="font-semibold text-slate-800 dark:text-slate-100">Sales Over Time (all stores)</h2>
+        <h2 className="font-semibold text-slate-800 dark:text-slate-100">My Records over the time</h2>
       </header>
       {/* Chart built with Chart.js 3 */}
       {/* Change the height attribute to adjust the chart height */}

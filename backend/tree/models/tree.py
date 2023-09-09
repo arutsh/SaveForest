@@ -6,7 +6,7 @@ class Tree(BaseModel):
 
     # each tree in inventory has unique tag / identifier
     identifier = models.CharField(max_length=50)
-    type = models.ForeignKey(TreeType, on_delete=models.SET_NULL)
+    type = models.ForeignKey(TreeType, on_delete=models.CASCADE)
     # TODO location can be more specific, defined in seperate model
     #  or geo location... something can be discussed with user
     location = models.CharField(max_length=100)

@@ -13,6 +13,10 @@ class Tree(BaseModel):
     # approximate planted date if unknown
     planted_on = models.DateField()
 
+    def __str__(self) -> str:
+        return self.identifier
+
+
 
     
     

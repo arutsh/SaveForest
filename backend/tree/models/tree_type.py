@@ -8,5 +8,6 @@ class TreeType(BaseModel):
     # Approx Oxygen produced by muture tree per day in liters 
     oxygen=models.IntegerField(null=True, blank=True)
 
-
+    def __str__(self) -> str:
+        return self.name
 

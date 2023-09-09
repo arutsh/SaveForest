@@ -37,7 +37,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'user',
-    'basemodel',
+    'basemodel.apps.BasemodelConfig',
+    'tree.apps.TreeConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

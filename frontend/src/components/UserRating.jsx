@@ -5,7 +5,7 @@ export default function UserRating({val}) {
   
 
   return (
-    <div title="The trees you recorded, this month generated Liter oxygen"
+    <div title="This Month your trees generated Litre of oxygen"
     className={`w-24 h-8 flex items-center justify-center bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600/80 rounded-full `}
 
   >

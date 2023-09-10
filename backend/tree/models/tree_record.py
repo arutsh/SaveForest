@@ -9,7 +9,7 @@ class TreeRecord(BaseModel):
     tree = models.ForeignKey(Tree, on_delete=models.SET_NULL, null=True)
     comments = models.CharField(null=True, blank=True, max_length=1000)
     is_healthy = models.BooleanField()
-    is_cutted = models.BooleanField()
+    is_cut = models.BooleanField()
     # approximate hight of the tree
     height = models.FloatField(null=True, blank=True)
     # approx circumference of the tree

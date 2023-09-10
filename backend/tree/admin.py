@@ -18,6 +18,6 @@ class TreeAdmin(admin.ModelAdmin):
 
 @admin.register(TreeRecord)
 class TreeRecordAdmin(admin.ModelAdmin):
-    list_display = ("created_on", "created_by", "tree", "is_healthy", "is_cutted", "modified_on", "modified_by", "last_viewed_on", "last_viewed_by")
+    list_display = ("created_on", "created_by", "tree", "is_healthy", "is_cut", "modified_on", "modified_by", "last_viewed_on", "last_viewed_by")
     # list_filter = ("created_on", "name", "description", "lifespan", "oxygen", "modified_on")
     search_fields = ["tree"]

@@ -16,6 +16,7 @@ class TreeRecord(BaseModel):
     circumference = models.FloatField(null=True, blank=True)
     # TODO URL TO image maybe note the image field
     image = models.CharField(max_length=200)
+    set_alart = models.BooleanField(default=False)
 
     def __str__(self) -> str:
         return self.tree.identifier

@@ -3,7 +3,12 @@ from basemodel.models import BaseModel
 from . import *
 
 class Tree(BaseModel):
+    """Tree module to inventory all the tree that are used in the report
 
+    :param BaseModel: Basemodel which is abstract parent model for all the classes, 
+    :type BaseModel: abstract
+    
+    """
     # each tree in inventory has unique tag / identifier
     identifier = models.CharField(max_length=50)
     type = models.ForeignKey(TreeType, on_delete=models.CASCADE)

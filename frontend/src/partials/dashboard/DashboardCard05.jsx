@@ -90,7 +90,7 @@ function DashboardCard05() {
       <header className="px-5 py-4 border-b border-slate-100 dark:border-slate-700 flex items-center">
         <h2 className="font-semibold text-slate-800 dark:text-slate-100">Produced Oxygen from all trees</h2>
         <Tooltip className="ml-2">
-          {/* <div className="text-xs text-center whitespace-nowrap">Built with <a className="underline" href="https://www.chartjs.org/" target="_blank" rel="noreferrer">Chart.js</a></div> */}
+        
         </Tooltip>
       </header>
       {/* Chart built with Chart.js 3 */}

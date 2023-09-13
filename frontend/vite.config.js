@@ -11,6 +11,10 @@ export default defineConfig({
     postcss,
   },
   plugins: [react()],
+  preview: {
+    host: true,
+    port: 8080
+  },
   resolve: {
     alias: [
       {
